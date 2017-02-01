@@ -1,0 +1,13 @@
+
+<h1>Order details</h1>
+<div class="view">
+<p>First Name: <%= @pizza.first_name%></p>
+<p>Last Name: <%= @pizza.last_name %></p>
+<p>Topping: <%= @pizza.topping %></p>
+<p>Quantity: <%= @pizza.quantity %></p>
+
+<p class="button"><a href="/pizzas/<%= @pizza.id%>/edit">EDIT</a></p>
+<form action="/pizzas/<%=@pizza.id%>/delete" method="post">
+<button class="delete button" type="submit" value="DELETE">DELETE</button>
+</form>
+</div>

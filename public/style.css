@@ -1,0 +1,110 @@
+body {
+  background-color: #C5C6B6;
+  font-family: 'Raleway', Arial, sans-serif;
+  margin: 0px;
+  color: #3C3530;
+}
+header{
+  background-color: #333;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.nav{
+  max-width: 940px;
+  list-style: none;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav li{
+  color: #fff;
+  display: inline-block;
+  width: 100px;
+  padding: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:visited{
+color: :white;
+}
+
+a:hover{
+  color: #D8E6E7;
+}
+a:active{
+
+}
+.button.view{
+  background-color: #AACD6E;
+}
+
+button.update{
+  background-color: #008CBA;
+}
+button.delete{
+  background-color: #C63C35;
+}
+.button {
+    background-color: #09BF46;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+input, select{
+  display: flex;
+  width: 250px;
+  height: 30px;
+  margin: 3px;
+  padding: 3px;
+  align-self: right;
+
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+}
+.box-half {    
+    background: #979B8D;
+    flex: 1 1 45%;
+    margin: .25rem;
+    height: 10rem;
+    padding: .25rem;
+    color: white;
+    text-align: center;
+}
+
+.view{
+  width: 200px;
+  display:inline-block;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}

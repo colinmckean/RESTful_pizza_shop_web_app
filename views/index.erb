@@ -1,0 +1,12 @@
+<div class="parent">
+<h1>Pizza Orders</h1>
+</div>
+<div class="container" class="parent">
+<% for pizza in @pizzas %>
+<div class="box-half">
+<p>Name: <%= pizza.pretty_name() %></p>
+<p>Order:  <%= pizza.quantity %> x <%= pizza.topping %> </p>
+<p class="button view"><a href="/pizzas/<%=pizza.id%>">VIEW ORDER</a></p>
+</div>
+<% end %>
+</div>
